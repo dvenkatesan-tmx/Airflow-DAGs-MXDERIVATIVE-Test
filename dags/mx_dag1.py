@@ -5,7 +5,7 @@ from airflow.operators.python_operator import PythonOperator
 
 # Function to be executed by PythonOperator
 def print_hello():
-    print("Airflow!")
+    print("Hello Airflow!")
 
 # Default arguments for the DAG
 default_args = {
